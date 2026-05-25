@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63AFD645-943A-DD89-A3F3-8414B8052AF0" name="AGENDA PARTIDO">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>6492E716-A1DA-2787-2B75-F4938D2490BA</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="agenda id" id="A9731776-1B4C-3EA5-190F-AB06490FDA38">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>043A7A43-0F74-5019-AE0B-12E6E05C5520</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario id" id="01083D89-9F60-4E58-D2C2-97D79398532A">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>8A35627C-93D5-E656-62B7-EBCBB8519174</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<referedAttribute>1CD9CFD0-39D3-8DD4-F8A3-02214607637B</referedAttribute>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="partido id" id="7A152E8F-42ED-A0D0-7A31-99AEB23EAFC1">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>2035D1CB-5CF6-279F-5E79-D9A68EFD90DF</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<referedAttribute>3CD65102-9A8E-68CF-11E3-DC4A165AAF00</referedAttribute>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="recordatorio" id="98F11EFA-D1E9-F10B-8C28-E91B6E110C60">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>10E8EDFB-57BA-3791-8242-E90EDE3F1150</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<domain>260FBDD0-40A1-3596-604D-3BD7321A3303</domain>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha agregado" id="081481DA-EAB7-2A09-4B4E-C140DA52E056">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>AFB5B6E4-AEFD-D0A4-C250-EF7F2A5523F3</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>D0D01265-D4D8-5013-09ED-251C2498A3DF</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C7F0E64-885E-01DC-3277-3F4CDDC39BAB" name="AGENDA PARTIDO PK">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>0E01D9A7-A824-7E33-D7AB-92594BCECE54</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9731776-1B4C-3EA5-190F-AB06490FDA38</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="090943EC-CC65-A4A6-3C0F-9FA9CA3656E2" name="AGENDA PARTIDO UQ">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>38E4F95E-272F-D97E-6DB8-70C32CEE9957</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>01083D89-9F60-4E58-D2C2-97D79398532A</attributeRef>
+<attributeRef>7A152E8F-42ED-A0D0-7A31-99AEB23EAFC1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

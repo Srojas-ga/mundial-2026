@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelos_Mundial" id="FE725C94-B360-42D3-B441-5516DA4EA1A8" version="3.5">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:31:06 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FE725C94-B360-42D3-B441-5516DA4EA1A8</designId>
+</OSDM_Design>

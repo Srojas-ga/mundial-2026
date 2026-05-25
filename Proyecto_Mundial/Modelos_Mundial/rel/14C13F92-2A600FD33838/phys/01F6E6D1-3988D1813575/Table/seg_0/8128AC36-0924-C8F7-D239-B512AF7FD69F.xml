@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="POLLA" directorySegmentName="seg_0" id="8128AC36-0924-C8F7-D239-B512AF7FD69F">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="pts_ganador" id="0E01E1A7-33D6-561D-5FD4-4992754BEB39">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fecha_creacion" id="34BED733-CACA-FBBB-291A-FC1AFEBC0C11">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="pts_marcador_exacto" id="3A18FFFA-8FA0-804C-9AED-E84F3443570E">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="polla_id" id="9DC33863-A251-203C-280A-1FAA6704822C">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="codigo_invitacion" id="B82AC257-FBD9-1B5F-67D5-F3CFFE5599DB">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre" id="C26396CE-887C-ED29-E017-AAA1B5E8A973">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="estado" id="CBD28B9E-665C-9635-25B6-0C18C8672252">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="creador_id" id="F4AD7D16-2D3C-1161-FB5E-F9A44050EB6E">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="POLLA_CREADOR_FK" id="30A6BEA2-4CD8-9EB0-CC5B-EB7983AEDE87">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="POLLA_PK" id="42D4D2F4-6248-3643-0777-F924304C778B">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="POLLA_UQ_CODIGO" id="97297A72-599B-6B5D-37BA-E2E30DCDAC72">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

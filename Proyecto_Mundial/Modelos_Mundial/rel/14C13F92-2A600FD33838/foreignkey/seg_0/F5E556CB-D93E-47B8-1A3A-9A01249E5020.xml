@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5E556CB-D93E-47B8-1A3A-9A01249E5020" containerWithKeyObject="F924F9C9-F5FF-D975-2627-3375A9B8C50D" localFKIndex="9428704D-ADEA-D903-4331-87F869BB59D2" name="RESP_SOLICITUD_FK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<referredTableLongName>SOLICITUD_SOPORTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5108ABE-443E-B9ED-4488-D942ED342CBF</referredTableID>
+<keyObject>1736EF67-5069-C589-20D4-B77D1D53EAD1</keyObject>
+<referredKeyID>1736EF67-5069-C589-20D4-B77D1D53EAD1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>solicitud_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

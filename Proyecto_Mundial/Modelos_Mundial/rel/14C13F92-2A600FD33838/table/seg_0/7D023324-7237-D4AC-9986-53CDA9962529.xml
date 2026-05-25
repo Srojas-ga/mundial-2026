@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D023324-7237-D4AC-9986-53CDA9962529" name="PREFERENCIA">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="preferencia_id" id="EAE3A6B8-D95B-9766-9255-38EA4AA07EFC">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="usuario_id" id="35C6F87B-F5FF-CF70-94CA-A7B0FB7F419C">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C45B1F1-AFC7-B571-A3E9-043227159819" referredColumn="B40F5012-EA62-946F-34EF-16ABCFC434ED"/>
+</associations>
+</Column>
+<Column name="canal_notificacion" id="AEB52C11-B6EF-E18A-5DC3-6C3929867FE2">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<domain>F167FE2D-A1BB-F83E-D752-A8F39236F6B4</domain>
+<listOfValues>
+<valueDef value="ambos" description=""/>
+<valueDef value="email" description=""/>
+<valueDef value="ninguno" description=""/>
+<valueDef value="push" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB3C8736-D9FB-25DC-B872-3D5AE07A0EFE" name="PREFERENCIA_PK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAE3A6B8-D95B-9766-9255-38EA4AA07EFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0684BEE-6F48-743F-39E5-8900A5CEF488" name="PREFERENCIA_UQ_USER">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35C6F87B-F5FF-CF70-94CA-A7B0FB7F419C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A8C3390-FA18-0D8C-3E35-9224FFDE4EEB" name="PREFERENCIA_USER_FK">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35C6F87B-F5FF-CF70-94CA-A7B0FB7F419C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

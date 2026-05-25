@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B98A7EE9-FB15-BE08-0976-C17B04CD043E" name="RESERVA">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>B46E2669-27F7-72B7-F0DB-3DAA24381E59</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="reserva id" id="B7210DD1-D1F5-E159-C6D0-2C5EB5D5D7CA">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>7F7B6ED0-88C6-85CB-9C26-59290B92804F</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="entrada id" id="4C3B392E-410A-0435-D809-70AC1D3BFF9A">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>8C9B1C54-B465-3F66-FCAC-163A4A63DFE9</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<referedAttribute>6AD6FDB6-EFDC-4DD7-9E57-BDAC75D777B0</referedAttribute>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario id" id="38665300-00A6-A313-D56D-8C98735BAC14">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>AD97B1F0-42FF-5831-263F-ED1018FF6DE4</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<referedAttribute>1CD9CFD0-39D3-8DD4-F8A3-02214607637B</referedAttribute>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha inicio" id="9E2241D6-1893-2934-9DF4-48511D7A6EF9">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>5E0A9E33-082F-D02D-D02D-08C7F8A8057D</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>D0D01265-D4D8-5013-09ED-251C2498A3DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha expiracion" id="CFDA3467-DBE5-6D07-8822-DA62E51E45F0">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>75DDB0EB-4F79-17C9-921C-BA646E406818</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>D0D01265-D4D8-5013-09ED-251C2498A3DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="05F22B24-EEFF-C6AA-FD11-DF4CF793AC7B">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>13031A8D-E0B4-955D-7D54-BEACE3E9D84D</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<domain>F167FE2D-A1BB-F83E-D752-A8F39236F6B4</domain>
+<listOfValues>
+<valueDef value="activa" description=""/>
+<valueDef value="cancelada" description=""/>
+<valueDef value="confirmada" description=""/>
+<valueDef value="expirada" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiempo confirmacion" id="CEFD3A47-C20D-162C-42B2-C2EFBC6142E3">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>D24F3DC3-3CBD-D03E-B412-DC31C184D942</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>84F98407-A7A9-1DFC-6C4B-233DE50F6195</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44518E28-E0F8-4A98-B218-021000066B0D" name="RESERVA PK">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>71322FA5-561A-7813-17C2-09C5C43DF05E</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7210DD1-D1F5-E159-C6D0-2C5EB5D5D7CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

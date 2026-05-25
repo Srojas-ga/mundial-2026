@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESERVA_ENTRADA_FK" directorySegmentName="seg_0" id="8C9B1C54-B465-3F66-FCAC-163A4A63DFE9">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>FF6348E2-C814-22A2-7E84-8F11BE964941</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<sourcePk>2896E1C2-AE36-EDC4-8FBC-21514268CC2D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>40EE5096-989A-56C1-35D9-CB4EF04665F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B98A7EE9-FB15-BE08-0976-C17B04CD043E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

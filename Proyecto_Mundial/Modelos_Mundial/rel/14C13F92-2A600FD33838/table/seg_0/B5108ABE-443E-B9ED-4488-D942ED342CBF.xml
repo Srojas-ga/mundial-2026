@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5108ABE-443E-B9ED-4488-D942ED342CBF" name="SOLICITUD_SOPORTE">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="solicitud_id" id="B6F805EC-A8CC-BA65-9A80-787610E88DF9">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="usuario_id" id="ECFCE63A-F496-F606-4B57-6B4038210725">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1CDE06F-EF40-CA16-BC8F-5306814EC202" referredColumn="B40F5012-EA62-946F-34EF-16ABCFC434ED"/>
+</associations>
+</Column>
+<Column name="operador_id" id="D57CA21C-F505-61C9-95C2-4F199C43614B">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7BD9396-314D-39F3-A790-08DECF317109" referredColumn="B40F5012-EA62-946F-34EF-16ABCFC434ED"/>
+</associations>
+</Column>
+<Column name="asunto" id="D6CC1DF6-0031-D96A-6930-75A10E81D3DD">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>804ACE99-35C0-861A-AD69-B8CFDFE373E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="43B3724B-41D0-A36F-262E-4F7B5F5F8FB6">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="5C076B6A-7273-7791-7610-9A06769E332C">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<domain>F167FE2D-A1BB-F83E-D752-A8F39236F6B4</domain>
+<listOfValues>
+<valueDef value="abierto" description=""/>
+<valueDef value="cerrado" description=""/>
+<valueDef value="en_progreso" description=""/>
+<valueDef value="resuelto" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_apertura" id="DFE6291F-C33E-A630-C306-F6D61FB58B00">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>D0D01265-D4D8-5013-09ED-251C2498A3DF</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_cierre" id="6A922573-64D7-F8C6-8D79-43F4EC797E33">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>D0D01265-D4D8-5013-09ED-251C2498A3DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1736EF67-5069-C589-20D4-B77D1D53EAD1" name="SOLICITUD_SOPORTE_PK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6F805EC-A8CC-BA65-9A80-787610E88DF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B9087BA-994D-A4FA-1FD1-E24D38A1D9C8" name="SOLIC_USUARIO_FK">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECFCE63A-F496-F606-4B57-6B4038210725"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03E0AE1F-23F8-EB32-B241-66258A2138A9" name="SOLIC_OPERADOR_FK">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D57CA21C-F505-61C9-95C2-4F199C43614B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

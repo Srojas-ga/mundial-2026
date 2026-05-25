@@ -1,0 +1,161 @@
+openapi: 3.0.3
+info:
+  title: Mundial 2026 API
+  description: API REST para la plataforma del Mundial 2026
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000/api
+    description: Servidor local
+
+paths:
+  /auth/register:
+    post:
+      tags: [Auth]
+      summary: Registrar nuevo usuario
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [nombre, email, password]
+              properties:
+                nombre: { type: string, example: "Juan Pérez" }
+                email: { type: string, format: email, example: "juan@email.com" }
+                password: { type: string, minLength: 8, example: "password123" }
+      responses:
+        '201': { description: Usuario registrado exitosamente }
+        '400': { description: Error de validación }
+        '409': { description: Email ya registrado }
+
+  /auth/login:
+    post:
+      tags: [Auth]
+      summary: Iniciar sesión
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email: { type: string, format: email }
+                password: { type: string }
+      responses:
+        '200': { description: Login exitoso, retorna JWT }
+        '401': { description: Credenciales inválidas }
+        '429': { description: Cuenta bloqueada temporalmente }
+
+  /partidos:
+    get:
+      tags: [Partidos]
+      summary: Listar todos los partidos
+      security: [{ bearerAuth: [] }]
+      parameters:
+        - { name: estado, in: query, schema: { type: string, enum: [programado, en_curso, finalizado] } }
+        - { name: fase, in: query, schema: { type: string } }
+      responses:
+        '200': { description: Lista de partidos }
+
+  /partidos/{id}:
+    get:
+      tags: [Partidos]
+      summary: Detalle de un partido
+      security: [{ bearerAuth: [] }]
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: integer } }
+      responses:
+        '200': { description: Detalle del partido }
+        '404': { description: Partido no encontrado }
+
+  /agenda:
+    get:
+      tags: [Agenda]
+      summary: Mi agenda de partidos
+      security: [{ bearerAuth: [] }]
+      responses:
+        '200': { description: Lista de partidos en agenda }
+    post:
+      tags: [Agenda]
+      summary: Agregar partido a mi agenda
+      security: [{ bearerAuth: [] }]
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                partido_id: { type: integer }
+                recordatorio: { type: boolean }
+      responses:
+        '201': { description: Partido agregado a la agenda }
+
+  /notificaciones:
+    get:
+      tags: [Notificaciones]
+      summary: Mis notificaciones
+      security: [{ bearerAuth: [] }]
+      responses:
+        '200': { description: Lista de notificaciones }
+
+  /entradas:
+    get:
+      tags: [Entradas]
+      summary: Mis entradas
+      security: [{ bearerAuth: [] }]
+      responses:
+        '200': { description: Lista de entradas }
+
+  /pollas:
+    get:
+      tags: [Pollas]
+      summary: Listar pollas disponibles
+      security: [{ bearerAuth: [] }]
+      responses:
+        '200': { description: Lista de pollas }
+    post:
+      tags: [Pollas]
+      summary: Crear nueva polla
+      security: [{ bearerAuth: [] }]
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                nombre: { type: string }
+                descripcion: { type: string }
+                pts_marcador_exacto: { type: integer, default: 3 }
+                pts_ganador: { type: integer, default: 1 }
+      responses:
+        '201': { description: Polla creada }
+
+  /album:
+    get:
+      tags: [Álbum]
+      summary: Mi álbum digital
+      security: [{ bearerAuth: [] }]
+      responses:
+        '200': { description: Álbum con láminas }
+
+  /soporte:
+    get:
+      tags: [Soporte]
+      summary: Mis casos de soporte
+      security: [{ bearerAuth: [] }]
+      responses:
+        '200': { description: Lista de casos }
+    post:
+      tags: [Soporte]
+      summary: Crear caso de soporte
+      security: [{ bearerAuth: [] }]
+      responses:
+        '201': { description: Caso creado }
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

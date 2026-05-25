@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB6EDEF7-0250-62B0-54A0-EF328075FB21" containerWithKeyObject="5D76BB60-1FEB-4BDF-A57D-AC02DDC1A372" localFKIndex="D1479B75-0673-11BF-5F4F-2C3B495CC17D" name="PRONOST_PARTIC_FK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<referredTableLongName>PARTICIPACION_POLLA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E13B1B56-46F6-D45A-9DF9-610C7E760F51</referredTableID>
+<keyObject>3406E0DC-EAAA-1287-443D-7B80451E113E</keyObject>
+<referredKeyID>3406E0DC-EAAA-1287-443D-7B80451E113E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>participacion_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

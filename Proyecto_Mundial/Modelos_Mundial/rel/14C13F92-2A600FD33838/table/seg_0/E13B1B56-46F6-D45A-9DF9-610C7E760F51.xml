@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E13B1B56-46F6-D45A-9DF9-610C7E760F51" name="PARTICIPACION_POLLA">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="participacion_id" id="87F72DE0-AFCB-1BF3-DF7D-FCBC8C45A288">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="polla_id" id="CC2D38E0-5A5C-44C6-9007-DA600D9A7ECB">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDDBC0B7-722D-0AFD-BFEB-347FCB59951C" referredColumn="9DC33863-A251-203C-280A-1FAA6704822C"/>
+</associations>
+</Column>
+<Column name="usuario_id" id="3447EDEE-DB64-0576-5645-BC0BA5B5E9FF">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E216316-C328-3334-54D4-622DE06D853E" referredColumn="B40F5012-EA62-946F-34EF-16ABCFC434ED"/>
+</associations>
+</Column>
+<Column name="puntos_total" id="ED46E040-08FA-ABA1-2A9C-DC876C2F7D40">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>567F00F4-225D-841E-7479-97AAC5B33BAB</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="posicion" id="67D7333E-43D2-C6E1-0902-443835D5D5CC">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>84F98407-A7A9-1DFC-6C4B-233DE50F6195</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_unio" id="18687512-0676-CD76-AFD1-0604B21F9ADE">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>D0D01265-D4D8-5013-09ED-251C2498A3DF</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3406E0DC-EAAA-1287-443D-7B80451E113E" name="PARTICIPACION_POLLA_PK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87F72DE0-AFCB-1BF3-DF7D-FCBC8C45A288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="851F8A83-EBD3-73DA-0FA5-B6ACFD650084" name="PARTIC_POLLA_UQ">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC2D38E0-5A5C-44C6-9007-DA600D9A7ECB"/>
+<colUsage columnID="3447EDEE-DB64-0576-5645-BC0BA5B5E9FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38A01AAE-3E4B-52AA-5FDA-DB8A04365CC8" name="PARTIC_POLLA_FK">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC2D38E0-5A5C-44C6-9007-DA600D9A7ECB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D067E883-0DE3-7EC4-1D10-275CB06F9698" name="PARTIC_USUARIO_FK">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3447EDEE-DB64-0576-5645-BC0BA5B5E9FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

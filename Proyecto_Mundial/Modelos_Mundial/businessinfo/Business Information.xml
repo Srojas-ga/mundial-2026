@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="08B10364-DC28-3E16-7B1A-BE4E04472C29">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:31:07 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

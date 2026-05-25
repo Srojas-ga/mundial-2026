@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="14C13F92-E288-DD0C-1AC3-2A600FD33838" mainViewID="081C847E-BB02-A4BF-9339-19049EA7D620">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:31:14 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>mundial2026_ddl.sql</fileName>
+<pathName>C:\Users\Los Panas\Downloads</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

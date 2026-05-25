@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LOG_USUARIO_FK" directorySegmentName="seg_0" id="1D38592F-9D7B-1710-417F-28FB736B678C">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>44D42751-369C-2984-FC01-153E7B4B43B6</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<sourcePk>E0452F1D-090C-F889-725D-91E034585569</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B8C20A4-D720-9B53-986F-4F01C6B10D48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>53F98510-789F-E086-E93E-F15C4841F536</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

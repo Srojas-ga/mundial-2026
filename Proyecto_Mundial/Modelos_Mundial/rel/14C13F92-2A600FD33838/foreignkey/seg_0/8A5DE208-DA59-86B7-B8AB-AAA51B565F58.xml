@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8A5DE208-DA59-86B7-B8AB-AAA51B565F58" containerWithKeyObject="74B5E933-305B-A434-2946-CEAD705A2ACC" localFKIndex="3F242DEA-9EDE-CFE6-47CB-6566905E21AC" name="INTERCAMBIO_RECEPT_FK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<referredTableLongName>USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>29B0D754-4A31-A6BF-0848-B80D184E924A</referredTableID>
+<keyObject>9A2EE724-56FA-8117-8CAA-BF55A3A1565D</keyObject>
+<referredKeyID>9A2EE724-56FA-8117-8CAA-BF55A3A1565D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>usuario_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

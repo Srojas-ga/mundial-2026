@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AGENDA_PARTIDO_USR_FK" directorySegmentName="seg_0" id="8A35627C-93D5-E656-62B7-EBCBB8519174">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>1F9C1BFB-D002-9DA1-77E9-483639534D48</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<sourcePk>E0452F1D-090C-F889-725D-91E034585569</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B8C20A4-D720-9B53-986F-4F01C6B10D48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>63AFD645-943A-DD89-A3F3-8414B8052AF0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

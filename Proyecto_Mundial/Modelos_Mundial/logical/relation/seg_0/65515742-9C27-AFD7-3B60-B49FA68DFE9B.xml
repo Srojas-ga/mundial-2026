@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INTERCAMBIO_RECEPT_FK" directorySegmentName="seg_0" id="65515742-9C27-AFD7-3B60-B49FA68DFE9B">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>8A5DE208-DA59-86B7-B8AB-AAA51B565F58</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<sourcePk>E0452F1D-090C-F889-725D-91E034585569</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B8C20A4-D720-9B53-986F-4F01C6B10D48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4EADDCF-D72E-3E1E-7893-4B1CB444D25A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

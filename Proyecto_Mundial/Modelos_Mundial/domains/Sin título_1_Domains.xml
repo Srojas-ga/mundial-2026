@@ -1,0 +1,209 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Sin título_1_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_0_0_30" id="047E7600-CE00-7029-2127-7367D9A21B65">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>30</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_0_0_100" id="05AE5BDF-ED7F-4062-53EC-5FFAB2C2356E">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_0_0_0" id="14A85F20-0285-FC80-AC59-4857121812E7">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_0_0_300" id="172B728D-FB4C-5939-ACF9-BAF0E711743E">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>300</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_1_0_0" id="260FBDD0-40A1-3596-604D-3BD7321A3303">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_9_6_0" id="2677272F-9B1F-BF2F-1949-19F2DA79C329">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_7_0_0" id="567F00F4-225D-841E-7479-97AAC5B33BAB">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_0_0_45" id="6A9514D1-AF1B-F1F9-FC78-FFF413718DC4">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>45</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_0_0_50" id="6B0E3648-53EF-AA2D-BE37-935DC1765AF5">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_10_2_0" id="73604513-7F49-96A5-5B6D-48F4831505AE">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_0_0_200" id="804ACE99-35C0-861A-AD69-B8CFDFE373E4">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_5_0_0" id="84F98407-A7A9-1DFC-6C4B-233DE50F6195">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_0_0_500" id="9CB1C999-1811-6736-B317-DFF047A210BB">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>500</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_0_0_150" id="9E2A38EB-C7AC-1F54-91CA-06453EFCF967">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>150</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_0_0_10" id="A2ACEAF7-4E13-6ECF-402C-55EC7A26584C">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_6_0_0" id="D0D01265-D4D8-5013-09ED-251C2498A3DF">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_0_0_255" id="E848052F-FA3F-352A-3BF4-FFD338335D0E">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_3_0_0" id="E84DBD6A-DA60-7E7A-2548-837DAE1614C8">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="unknown_0_0_20" id="F167FE2D-A1BB-F83E-D752-A8F39236F6B4">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:03 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>Sin título_1_Domains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B0EF080-9784-BBCA-CB99-2E10986310C0" name="PAQUETE_LAMINA">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="paquete_id" id="869F55DD-5010-44E5-95D9-529553C62E22">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBB9CA77-BFEE-D5E6-0FBA-E734945FAE5A" referredColumn="20FFB474-656B-FEF3-1279-EFFCA595BC6D"/>
+</associations>
+</Column>
+<Column name="lamina_id" id="D2D4277D-D7FF-E11B-256B-3A1EE05F3260">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>14A85F20-0285-FC80-AC59-4857121812E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D244AE87-03C1-AD0E-8420-AFF49B89A078" referredColumn="4CAD69CF-95BD-11DE-003F-AEDC0D7FB76B"/>
+</associations>
+</Column>
+<Column name="cantidad" id="9E243E71-58A1-DD27-77EC-74D4681E7190">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<use>0</use>
+<domain>E84DBD6A-DA60-7E7A-2548-837DAE1614C8</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3026E68-2A0B-5BE3-2091-4EBEADAA254B" name="PAQUETE_LAMINA_PK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="869F55DD-5010-44E5-95D9-529553C62E22"/>
+<colUsage columnID="D2D4277D-D7FF-E11B-256B-3A1EE05F3260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CB84A69-11AE-E27A-9CBF-A16CE13EB1E7" name="PAQUETE_LAMINA_PAQ_FK">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="869F55DD-5010-44E5-95D9-529553C62E22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83FC4D7E-B083-0BF4-4746-3F595FFF429C" name="PAQUETE_LAMINA_LAM_FK">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2D4277D-D7FF-E11B-256B-3A1EE05F3260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

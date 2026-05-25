@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INTERCAMBIO_SOLIT_FK" directorySegmentName="seg_0" id="9108354C-D682-46C4-772B-0105A7547C77">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>EA1E379E-F4B6-EFBA-941E-BA5A2C9C96EF</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<sourcePk>E0452F1D-090C-F889-725D-91E034585569</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B8C20A4-D720-9B53-986F-4F01C6B10D48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4EADDCF-D72E-3E1E-7893-4B1CB444D25A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

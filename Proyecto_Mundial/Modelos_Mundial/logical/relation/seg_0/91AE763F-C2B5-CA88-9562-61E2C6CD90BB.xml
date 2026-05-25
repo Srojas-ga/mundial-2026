@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVENTO_EQUIPO_FK" directorySegmentName="seg_0" id="91AE763F-C2B5-CA88-9562-61E2C6CD90BB">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>3EF5933C-6E8B-189A-C048-76E12AC2D7F8</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<sourcePk>538CEB5A-144F-B085-DDCF-5261761A3C7A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>39AAB723-506B-F335-6143-74688D047BD6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3DC18F3D-AA3B-BA34-132B-A3262B6BF393</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

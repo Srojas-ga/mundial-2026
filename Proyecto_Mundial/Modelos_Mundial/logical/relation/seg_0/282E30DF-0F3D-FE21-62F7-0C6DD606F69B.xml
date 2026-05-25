@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRANSF_ENTRADA_FK" directorySegmentName="seg_0" id="282E30DF-0F3D-FE21-62F7-0C6DD606F69B">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>54849181-14E2-552E-A3A3-12C2746C1C67</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<sourcePk>2896E1C2-AE36-EDC4-8FBC-21514268CC2D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>40EE5096-989A-56C1-35D9-CB4EF04665F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C79D92E6-5AB8-D112-338E-406CD7C2FCA2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

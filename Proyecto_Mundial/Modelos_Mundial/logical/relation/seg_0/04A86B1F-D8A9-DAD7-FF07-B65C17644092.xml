@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRONOST_PARTIC_FK" directorySegmentName="seg_0" id="04A86B1F-D8A9-DAD7-FF07-B65C17644092">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>CB6EDEF7-0250-62B0-54A0-EF328075FB21</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<sourcePk>240642EA-2077-D3F5-345A-BFFB1095E7D2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A1BC46AB-4534-197C-D9C4-72B7D765C2FD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE0A5021-45DE-9D1D-BAAF-25B2B9CAA8CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

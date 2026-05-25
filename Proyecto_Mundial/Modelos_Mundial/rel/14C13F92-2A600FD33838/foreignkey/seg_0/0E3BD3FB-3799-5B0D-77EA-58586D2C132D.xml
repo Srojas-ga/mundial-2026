@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E3BD3FB-3799-5B0D-77EA-58586D2C132D" containerWithKeyObject="64F8F8D7-97F0-D099-C7CA-AD994CA99BB6" localFKIndex="09FD906E-3114-7ED0-40AC-C63CB4742819" name="AL_ALBUM_FK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<referredTableLongName>ALBUM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9762DA91-8569-FA0E-74A8-24C6CC0B2E02</referredTableID>
+<keyObject>57007158-CD63-C662-BF53-A169586996D3</keyObject>
+<referredKeyID>57007158-CD63-C662-BF53-A169586996D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>album_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="43C3D96D-EF78-D19F-9234-5AD3C1C625F5" containerWithKeyObject="B37B07D9-02D0-45AC-E94A-FED054E15576" localFKIndex="A04312B4-DA4C-6413-92A2-2B913C114235" name="EVENTO_PARTIDO_FK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<referredTableLongName>PARTIDO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2386ACDE-F636-A435-3C0F-82ABAE6B01A3</referredTableID>
+<keyObject>47514D02-49F4-7D04-1DDD-7318B76A6D7C</keyObject>
+<referredKeyID>47514D02-49F4-7D04-1DDD-7318B76A6D7C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>partido_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF6348E2-C814-22A2-7E84-8F11BE964941" containerWithKeyObject="B46E2669-27F7-72B7-F0DB-3DAA24381E59" localFKIndex="602DF99D-DD62-3D19-4EF7-08E7B9BE4342" name="RESERVA_ENTRADA_FK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<referredTableLongName>ENTRADA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65FA48B6-55DC-FAAE-00EE-0085BE3970B1</referredTableID>
+<keyObject>CD18C5FB-73E2-2373-E299-5AA474ABC4B4</keyObject>
+<referredKeyID>CD18C5FB-73E2-2373-E299-5AA474ABC4B4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>entrada_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PARTIC_POLLA_FK" directorySegmentName="seg_0" id="D6872B0D-D0AB-6869-15B1-2215EE6D63DB">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>EDDBC0B7-722D-0AFD-BFEB-347FCB59951C</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<sourcePk>874000D3-1076-2F75-72AE-140C4357D356</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9DA0C31-7F41-E0FB-2C87-70A3F31E5E4C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A1BC46AB-4534-197C-D9C4-72B7D765C2FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/services/entradas.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { Observable, map } from 'rxjs';\n\nconst API = 'http://localhost:3000/api';\n\n@Injectable({ providedIn: 'root' })\nexport class EntradasService {\n  constructor(private http: HttpClient) {}\n\n  getAll(): Observable<any[]> {\n    return this.http.get<any>(`${API}/entradas`).pipe(map(res => res.data));\n  }\n\n  reservar(id: string): Observable<any> {\n    return this.http.post<any>(`${API}/entradas/${id}/reservar`, {});\n  }\n\n  transferir(id: string, email: string): Observable<any> {\n    return this.http.post<any>(`${API}/entradas/${id}/transferir`, { email });\n  }\n}\n"],
+  "mappings": ";;;;;;;;AAIA,IAAM,MAAM;AAGN,IAAO,kBAAP,MAAO,iBAAe;EAC1B,YAAoB,MAAgB;AAAhB,SAAA,OAAA;EAAmB;EAEvC,SAAM;AACJ,WAAO,KAAK,KAAK,IAAS,GAAG,GAAG,WAAW,EAAE,KAAK,IAAI,SAAO,IAAI,IAAI,CAAC;EACxE;EAEA,SAAS,IAAU;AACjB,WAAO,KAAK,KAAK,KAAU,GAAG,GAAG,aAAa,EAAE,aAAa,CAAA,CAAE;EACjE;EAEA,WAAW,IAAY,OAAa;AAClC,WAAO,KAAK,KAAK,KAAU,GAAG,GAAG,aAAa,EAAE,eAAe,EAAE,MAAK,CAAE;EAC1E;;;uBAbW,kBAAe,mBAAA,UAAA,CAAA;IAAA;EAAA;;4EAAf,kBAAe,SAAf,iBAAe,WAAA,YADF,OAAM,CAAA;EAAA;;",
+  "names": []
+}

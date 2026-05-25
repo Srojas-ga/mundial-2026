@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="664DA8A1-CAAD-9EFA-F212-8F6F8F06EE91" containerWithKeyObject="78B31CE4-A739-4E6F-0298-9EE1A7A5FF25" localFKIndex="9BED01CC-BD3F-42C3-4064-7788DAC0E551" name="PAGO_RESERVA_FK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<referredTableLongName>RESERVA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B46E2669-27F7-72B7-F0DB-3DAA24381E59</referredTableID>
+<keyObject>71322FA5-561A-7813-17C2-09C5C43DF05E</keyObject>
+<referredKeyID>71322FA5-561A-7813-17C2-09C5C43DF05E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>reserva_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

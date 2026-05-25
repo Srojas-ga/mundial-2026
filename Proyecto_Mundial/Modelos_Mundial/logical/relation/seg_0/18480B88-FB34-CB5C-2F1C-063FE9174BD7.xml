@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LAMINA_EQUIPO_FK" directorySegmentName="seg_0" id="18480B88-FB34-CB5C-2F1C-063FE9174BD7">
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:38 UTC</createdTime>
+<generatorID>4BBA244A-2FAA-7BAD-2DD5-C8FCACEA08F8</generatorID>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<engineerTo>
+<item key="14C13F92-E288-DD0C-1AC3-2A600FD33838" value="true"/>
+</engineerTo>
+<sourcePk>538CEB5A-144F-B085-DDCF-5261761A3C7A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>39AAB723-506B-F335-6143-74688D047BD6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CDFDCFD2-54FE-BB3E-68EA-8D6C8F19B9A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

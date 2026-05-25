@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDDBC0B7-722D-0AFD-BFEB-347FCB59951C" containerWithKeyObject="E13B1B56-46F6-D45A-9DF9-610C7E760F51" localFKIndex="38A01AAE-3E4B-52AA-5FDA-DB8A04365CC8" name="PARTIC_POLLA_FK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<referredTableLongName>POLLA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8128AC36-0924-C8F7-D239-B512AF7FD69F</referredTableID>
+<keyObject>42D4D2F4-6248-3643-0777-F924304C778B</keyObject>
+<referredKeyID>42D4D2F4-6248-3643-0777-F924304C778B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>polla_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

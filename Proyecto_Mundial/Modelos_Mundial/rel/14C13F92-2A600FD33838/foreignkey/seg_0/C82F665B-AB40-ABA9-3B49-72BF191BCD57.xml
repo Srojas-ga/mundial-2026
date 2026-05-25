@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C82F665B-AB40-ABA9-3B49-72BF191BCD57" containerWithKeyObject="64F8F8D7-97F0-D099-C7CA-AD994CA99BB6" localFKIndex="5AD0E27B-90B2-823A-4945-2ACB09629765" name="AL_LAMINA_FK">
+<sourceDDLFile>mundial2026_ddl.sql</sourceDDLFile>
+<createdBy>Los Panas</createdBy>
+<createdTime>2026-05-13 23:32:04 UTC</createdTime>
+<ownerDesignName>Modelos_Mundial</ownerDesignName>
+<referredTableLongName>LAMINA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A50E019A-D731-E3AD-9280-76D5453FBC6A</referredTableID>
+<keyObject>FF5A4571-B83C-89E5-36FF-3390A3A68A5A</keyObject>
+<referredKeyID>FF5A4571-B83C-89E5-36FF-3390A3A68A5A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>lamina_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/services/partidos.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { Observable, map } from 'rxjs';\nimport { Match } from '../models';\n\nconst API = 'http://localhost:3000/api';\n\n@Injectable({ providedIn: 'root' })\nexport class PartidosService {\n  constructor(private http: HttpClient) {}\n\n  getAll(params?: any): Observable<Match[]> {\n    return this.http.get<any>(`${API}/partidos`, { params }).pipe(map(res => res.data));\n  }\n\n  getById(id: string): Observable<Match> {\n    return this.http.get<any>(`${API}/partidos/${id}`).pipe(map(res => res.data));\n  }\n\n  getEventos(id: string): Observable<any[]> {\n    return this.http.get<any>(`${API}/partidos/${id}/eventos`).pipe(map(res => res.data));\n  }\n}\n"],
+  "mappings": ";;;;;;;;AAKA,IAAM,MAAM;AAGN,IAAO,kBAAP,MAAO,iBAAe;EAC1B,YAAoB,MAAgB;AAAhB,SAAA,OAAA;EAAmB;EAEvC,OAAO,QAAY;AACjB,WAAO,KAAK,KAAK,IAAS,GAAG,GAAG,aAAa,EAAE,OAAM,CAAE,EAAE,KAAK,IAAI,SAAO,IAAI,IAAI,CAAC;EACpF;EAEA,QAAQ,IAAU;AAChB,WAAO,KAAK,KAAK,IAAS,GAAG,GAAG,aAAa,EAAE,EAAE,EAAE,KAAK,IAAI,SAAO,IAAI,IAAI,CAAC;EAC9E;EAEA,WAAW,IAAU;AACnB,WAAO,KAAK,KAAK,IAAS,GAAG,GAAG,aAAa,EAAE,UAAU,EAAE,KAAK,IAAI,SAAO,IAAI,IAAI,CAAC;EACtF;;;uBAbW,kBAAe,mBAAA,UAAA,CAAA;IAAA;EAAA;;4EAAf,kBAAe,SAAf,iBAAe,WAAA,YADF,OAAM,CAAA;EAAA;;",
+  "names": []
+}
