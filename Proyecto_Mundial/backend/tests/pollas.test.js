@@ -1,6 +1,13 @@
 // tests/pollas.test.js
 const request = require('supertest');
 
+jest.mock('../src/config/env', () => ({
+  jwt: { secret: 'test_secret', expiresIn: '1h' },
+  db: { host: 'localhost', port: 3306, user: 'test', password: 'test', database: 'test_db' },
+  port: 3000,
+  nodeEnv: 'test',
+}));
+
 jest.mock('../src/config/db', () => ({
   execute: jest.fn(),
   getConnection: jest.fn(),
