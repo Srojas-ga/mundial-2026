@@ -1,7 +1,6 @@
 // tests/auth.test.js
 const request = require('supertest');
 
-// Mock dependencies before requiring app
 jest.mock('../src/config/db', () => ({
   execute: jest.fn(),
   getConnection: jest.fn(),
@@ -20,7 +19,6 @@ jest.mock('../src/jobs/sync-partidos.job', () => ({
 }));
 
 const app = require('../src/app');
-const pool = require('../src/config/db');
 
 describe('Auth Endpoints', () => {
   afterEach(() => jest.clearAllMocks());
@@ -30,7 +28,6 @@ describe('Auth Endpoints', () => {
       const res = await request(app)
         .post('/api/auth/register')
         .send({ email: 'test@test.com' });
-
       expect(res.statusCode).toBe(400);
       expect(res.body.success).toBe(false);
     });
@@ -39,7 +36,6 @@ describe('Auth Endpoints', () => {
       const res = await request(app)
         .post('/api/auth/register')
         .send({ nombre: 'Test', email: 'invalid', password: '12345678' });
-
       expect(res.statusCode).toBe(400);
     });
 
@@ -47,7 +43,6 @@ describe('Auth Endpoints', () => {
       const res = await request(app)
         .post('/api/auth/register')
         .send({ nombre: 'Test', email: 'test@test.com', password: '123' });
-
       expect(res.statusCode).toBe(400);
     });
   });
@@ -57,7 +52,6 @@ describe('Auth Endpoints', () => {
       const res = await request(app)
         .post('/api/auth/login')
         .send({});
-
       expect(res.statusCode).toBe(400);
     });
   });

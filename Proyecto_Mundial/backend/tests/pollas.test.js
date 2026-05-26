@@ -7,7 +7,11 @@ jest.mock('../src/config/db', () => ({
 }));
 
 jest.mock('../src/config/logger', () => ({
-  info: jest.fn(), warn: jest.fn(), error: jest.fn(), debug: jest.fn(), add: jest.fn(),
+  info: jest.fn(),
+  warn: jest.fn(),
+  error: jest.fn(),
+  debug: jest.fn(),
+  add: jest.fn(),
 }));
 
 jest.mock('../src/jobs/sync-partidos.job', () => ({

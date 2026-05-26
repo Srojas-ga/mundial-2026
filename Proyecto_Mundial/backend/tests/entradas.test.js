@@ -7,7 +7,11 @@ jest.mock('../src/config/db', () => ({
 }));
 
 jest.mock('../src/config/logger', () => ({
-  info: jest.fn(), warn: jest.fn(), error: jest.fn(), debug: jest.fn(), add: jest.fn(),
+  info: jest.fn(),
+  warn: jest.fn(),
+  error: jest.fn(),
+  debug: jest.fn(),
+  add: jest.fn(),
 }));
 
 jest.mock('../src/jobs/sync-partidos.job', () => ({
@@ -27,7 +31,7 @@ describe('Entradas Endpoints', () => {
     expect(res.statusCode).toBe(401);
   });
 
-  it('debería rechazar transferencia sin email', async () => {
+  it('debería rechazar transferencia sin token', async () => {
     const res = await request(app)
       .post('/api/entradas/1/transferir')
       .send({});
